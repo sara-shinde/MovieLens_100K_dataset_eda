@@ -220,8 +220,7 @@ __marimo__/
 # Custom additions for data analysis projects
 
 # Ignore raw data files (they are often large or under license)
-data/raw/*.csv
-data/raw/*.xlsx
+data/raw/
 
 # Ignore your scratch/exploration notebook
 exploration.ipynb

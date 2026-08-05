@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom additions for data analysis projects
+
+# Ignore raw data files (they are often large or under license)
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Ignore your scratch/exploration notebook
+exploration.ipynb
+
+# Ignore VS Code settings (if you use it)
+.vscode/
